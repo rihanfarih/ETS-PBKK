@@ -53,6 +53,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.BookingDGV = new Guna.UI.WinForms.GunaDataGridView();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BookingDGV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +64,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(358, 86);
+            this.label2.Location = new System.Drawing.Point(784, 353);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(180, 28);
@@ -73,7 +76,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(391, 56);
+            this.label1.Location = new System.Drawing.Point(817, 323);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 28);
@@ -84,7 +87,7 @@
             // 
             this.PIdCb.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PIdCb.FormattingEnabled = true;
-            this.PIdCb.Location = new System.Drawing.Point(210, 207);
+            this.PIdCb.Location = new System.Drawing.Point(636, 474);
             this.PIdCb.Margin = new System.Windows.Forms.Padding(2);
             this.PIdCb.Name = "PIdCb";
             this.PIdCb.Size = new System.Drawing.Size(133, 29);
@@ -96,7 +99,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Navy;
-            this.label10.Location = new System.Drawing.Point(39, 209);
+            this.label10.Location = new System.Drawing.Point(465, 476);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(127, 23);
@@ -108,7 +111,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Navy;
-            this.label9.Location = new System.Drawing.Point(38, 145);
+            this.label9.Location = new System.Drawing.Point(464, 412);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(67, 23);
@@ -127,7 +130,7 @@
             this.PNameTb.LineIdleColor = System.Drawing.Color.Red;
             this.PNameTb.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PNameTb.LineThickness = 4;
-            this.PNameTb.Location = new System.Drawing.Point(204, 136);
+            this.PNameTb.Location = new System.Drawing.Point(630, 403);
             this.PNameTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PNameTb.Name = "PNameTb";
             this.PNameTb.Size = new System.Drawing.Size(133, 32);
@@ -139,7 +142,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Navy;
-            this.label8.Location = new System.Drawing.Point(379, 145);
+            this.label8.Location = new System.Drawing.Point(805, 412);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(111, 23);
@@ -158,7 +161,7 @@
             this.PNatTb.LineIdleColor = System.Drawing.Color.Red;
             this.PNatTb.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PNatTb.LineThickness = 4;
-            this.PNatTb.Location = new System.Drawing.Point(545, 135);
+            this.PNatTb.Location = new System.Drawing.Point(971, 402);
             this.PNatTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PNatTb.Name = "PNatTb";
             this.PNatTb.Size = new System.Drawing.Size(133, 32);
@@ -170,7 +173,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Navy;
-            this.label6.Location = new System.Drawing.Point(39, 280);
+            this.label6.Location = new System.Drawing.Point(465, 547);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 23);
@@ -189,7 +192,7 @@
             this.PPassTb.LineIdleColor = System.Drawing.Color.Red;
             this.PPassTb.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PPassTb.LineThickness = 4;
-            this.PPassTb.Location = new System.Drawing.Point(210, 270);
+            this.PPassTb.Location = new System.Drawing.Point(636, 537);
             this.PPassTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PPassTb.Name = "PPassTb";
             this.PPassTb.Size = new System.Drawing.Size(130, 32);
@@ -200,7 +203,7 @@
             // 
             this.Fcode.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Fcode.FormattingEnabled = true;
-            this.Fcode.Location = new System.Drawing.Point(545, 207);
+            this.Fcode.Location = new System.Drawing.Point(971, 474);
             this.Fcode.Margin = new System.Windows.Forms.Padding(2);
             this.Fcode.Name = "Fcode";
             this.Fcode.Size = new System.Drawing.Size(133, 29);
@@ -211,7 +214,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Navy;
-            this.label5.Location = new System.Drawing.Point(377, 209);
+            this.label5.Location = new System.Drawing.Point(803, 476);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(116, 23);
@@ -223,7 +226,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Navy;
-            this.label11.Location = new System.Drawing.Point(379, 280);
+            this.label11.Location = new System.Drawing.Point(805, 547);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(82, 23);
@@ -242,7 +245,7 @@
             this.PAmtTb.LineIdleColor = System.Drawing.Color.Red;
             this.PAmtTb.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PAmtTb.LineThickness = 4;
-            this.PAmtTb.Location = new System.Drawing.Point(545, 271);
+            this.PAmtTb.Location = new System.Drawing.Point(971, 538);
             this.PAmtTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PAmtTb.Name = "PAmtTb";
             this.PAmtTb.Size = new System.Drawing.Size(133, 32);
@@ -254,7 +257,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(395, 326);
+            this.label12.Location = new System.Drawing.Point(821, 593);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(117, 28);
@@ -263,11 +266,13 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Navy;
+            this.panel1.BackColor = System.Drawing.Color.Firebrick;
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1689, 25);
+            this.panel1.Size = new System.Drawing.Size(1689, 91);
             this.panel1.TabIndex = 71;
             // 
             // label7
@@ -275,7 +280,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(1173, 66);
+            this.label7.Location = new System.Drawing.Point(1425, 377);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(25, 28);
@@ -290,7 +295,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(712, 271);
+            this.button4.Location = new System.Drawing.Point(1138, 538);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(156, 40);
@@ -306,7 +311,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(712, 200);
+            this.button2.Location = new System.Drawing.Point(1138, 467);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(156, 40);
@@ -322,7 +327,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(712, 136);
+            this.button1.Location = new System.Drawing.Point(1138, 403);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 40);
@@ -359,7 +364,7 @@
             this.BookingDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.BookingDGV.EnableHeadersVisualStyles = false;
             this.BookingDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.BookingDGV.Location = new System.Drawing.Point(20, 356);
+            this.BookingDGV.Location = new System.Drawing.Point(446, 623);
             this.BookingDGV.Margin = new System.Windows.Forms.Padding(2);
             this.BookingDGV.Name = "BookingDGV";
             this.BookingDGV.ReadOnly = true;
@@ -391,6 +396,30 @@
             this.BookingDGV.ThemeStyle.RowsStyle.Height = 24;
             this.BookingDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.BookingDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(1278, 26);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(379, 37);
+            this.label13.TabIndex = 79;
+            this.label13.Text = "AirITS Reservation System";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(53, 26);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 37);
+            this.label3.TabIndex = 78;
+            this.label3.Text = "AirITS";
             // 
             // Ticket
             // 
@@ -425,6 +454,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ticket";
             this.Load += new System.EventHandler(this.Ticket_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BookingDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -453,5 +484,7 @@
         private System.Windows.Forms.Button button1;
         private Guna.UI.WinForms.GunaDataGridView BookingDGV;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label3;
     }
 }

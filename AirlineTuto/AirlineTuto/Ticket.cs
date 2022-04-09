@@ -19,7 +19,7 @@ namespace AirlineTuto
         }
 
         //Jangan lupa ganti pathnya sesuai laptop masing-masing
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\SMT6\PBKK\VS22\Airplane-Management-Sytem\Database\AirlineDb.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ROG\Documents\GitHub\ETS-PBKK\Database\AirlineDb.mdf;Integrated Security=True;Connect Timeout=30");
         string pname, ppass, pnat;
 
         private void populate()
