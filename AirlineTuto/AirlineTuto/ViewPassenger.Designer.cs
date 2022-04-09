@@ -65,10 +65,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(65, 264);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(87, 325);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(232, 28);
+            this.label2.Size = new System.Drawing.Size(291, 37);
             this.label2.TabIndex = 32;
             this.label2.Text = "Record Passengers";
             // 
@@ -79,10 +78,10 @@
             this.GenderCb.Items.AddRange(new object[] {
             "Man",
             "Woman"});
-            this.GenderCb.Location = new System.Drawing.Point(431, 537);
-            this.GenderCb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.GenderCb.Location = new System.Drawing.Point(575, 661);
+            this.GenderCb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.GenderCb.Name = "GenderCb";
-            this.GenderCb.Size = new System.Drawing.Size(133, 29);
+            this.GenderCb.Size = new System.Drawing.Size(176, 35);
             this.GenderCb.TabIndex = 52;
             // 
             // label10
@@ -90,10 +89,9 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Navy;
-            this.label10.Location = new System.Drawing.Point(285, 544);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(380, 670);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(80, 23);
+            this.label10.Size = new System.Drawing.Size(97, 27);
             this.label10.TabIndex = 51;
             this.label10.Text = "Gender";
             // 
@@ -102,10 +100,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Navy;
-            this.label9.Location = new System.Drawing.Point(285, 456);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(380, 561);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 23);
+            this.label9.Size = new System.Drawing.Size(101, 27);
             this.label9.TabIndex = 50;
             this.label9.Text = "Address";
             // 
@@ -121,10 +118,10 @@
             this.PassAdd.LineIdleColor = System.Drawing.Color.Red;
             this.PassAdd.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PassAdd.LineThickness = 4;
-            this.PassAdd.Location = new System.Drawing.Point(431, 446);
-            this.PassAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PassAdd.Location = new System.Drawing.Point(575, 549);
+            this.PassAdd.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PassAdd.Name = "PassAdd";
-            this.PassAdd.Size = new System.Drawing.Size(132, 32);
+            this.PassAdd.Size = new System.Drawing.Size(176, 42);
             this.PassAdd.TabIndex = 49;
             this.PassAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -133,10 +130,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Navy;
-            this.label8.Location = new System.Drawing.Point(278, 355);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(371, 437);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 23);
+            this.label8.Size = new System.Drawing.Size(104, 27);
             this.label8.TabIndex = 48;
             this.label8.Text = "Passport";
             // 
@@ -152,10 +148,10 @@
             this.PassportTb.LineIdleColor = System.Drawing.Color.Red;
             this.PassportTb.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PassportTb.LineThickness = 4;
-            this.PassportTb.Location = new System.Drawing.Point(431, 345);
-            this.PassportTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PassportTb.Location = new System.Drawing.Point(575, 425);
+            this.PassportTb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PassportTb.Name = "PassportTb";
-            this.PassportTb.Size = new System.Drawing.Size(133, 32);
+            this.PassportTb.Size = new System.Drawing.Size(177, 42);
             this.PassportTb.TabIndex = 47;
             this.PassportTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -164,10 +160,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Navy;
-            this.label6.Location = new System.Drawing.Point(278, 318);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(371, 391);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 23);
+            this.label6.Size = new System.Drawing.Size(81, 27);
             this.label6.TabIndex = 46;
             this.label6.Text = "Name";
             // 
@@ -183,10 +178,10 @@
             this.PassName.LineIdleColor = System.Drawing.Color.Red;
             this.PassName.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PassName.LineThickness = 4;
-            this.PassName.Location = new System.Drawing.Point(431, 308);
-            this.PassName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PassName.Location = new System.Drawing.Point(575, 379);
+            this.PassName.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PassName.Name = "PassName";
-            this.PassName.Size = new System.Drawing.Size(132, 32);
+            this.PassName.Size = new System.Drawing.Size(176, 42);
             this.PassName.TabIndex = 45;
             this.PassName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -195,20 +190,22 @@
             this.NationalityCb.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NationalityCb.FormattingEnabled = true;
             this.NationalityCb.Items.AddRange(new object[] {
-            "Indonesian",
-            "Malaysian",
-            "American",
-            "Zimbabwean",
-            "Chinese",
             "Turkish",
-            "Nigerian",
+            "France",
             "Rusian",
-            "Japanese",
-            "Other"});
-            this.NationalityCb.Location = new System.Drawing.Point(431, 399);
-            this.NationalityCb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            "Amerikan",
+            "Belgian",
+            "Jermany",
+            "Jepanish",
+            "Chinese",
+            "Indonesian",
+            "Singapuran",
+            "Vietanmese",
+            "Malaysian"});
+            this.NationalityCb.Location = new System.Drawing.Point(575, 491);
+            this.NationalityCb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NationalityCb.Name = "NationalityCb";
-            this.NationalityCb.Size = new System.Drawing.Size(133, 29);
+            this.NationalityCb.Size = new System.Drawing.Size(176, 35);
             this.NationalityCb.TabIndex = 44;
             // 
             // label5
@@ -216,10 +213,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Navy;
-            this.label5.Location = new System.Drawing.Point(278, 406);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(371, 500);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 23);
+            this.label5.Size = new System.Drawing.Size(133, 27);
             this.label5.TabIndex = 43;
             this.label5.Text = "Nationality";
             // 
@@ -228,10 +224,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Navy;
-            this.label4.Location = new System.Drawing.Point(285, 493);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(380, 607);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 23);
+            this.label4.Size = new System.Drawing.Size(83, 27);
             this.label4.TabIndex = 42;
             this.label4.Text = "Phone";
             // 
@@ -247,10 +242,10 @@
             this.PhoneTb.LineIdleColor = System.Drawing.Color.Red;
             this.PhoneTb.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.PhoneTb.LineThickness = 4;
-            this.PhoneTb.Location = new System.Drawing.Point(431, 483);
-            this.PhoneTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.PhoneTb.Location = new System.Drawing.Point(575, 594);
+            this.PhoneTb.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.PhoneTb.Name = "PhoneTb";
-            this.PhoneTb.Size = new System.Drawing.Size(132, 32);
+            this.PhoneTb.Size = new System.Drawing.Size(176, 42);
             this.PhoneTb.TabIndex = 41;
             this.PhoneTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
@@ -282,15 +277,15 @@
             this.PassengerGDV.DefaultCellStyle = dataGridViewCellStyle3;
             this.PassengerGDV.EnableHeadersVisualStyles = false;
             this.PassengerGDV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.PassengerGDV.Location = new System.Drawing.Point(282, 623);
-            this.PassengerGDV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PassengerGDV.Location = new System.Drawing.Point(376, 767);
+            this.PassengerGDV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PassengerGDV.Name = "PassengerGDV";
             this.PassengerGDV.ReadOnly = true;
             this.PassengerGDV.RowHeadersVisible = false;
             this.PassengerGDV.RowHeadersWidth = 51;
             this.PassengerGDV.RowTemplate.Height = 24;
             this.PassengerGDV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.PassengerGDV.Size = new System.Drawing.Size(652, 190);
+            this.PassengerGDV.Size = new System.Drawing.Size(869, 234);
             this.PassengerGDV.TabIndex = 53;
             this.PassengerGDV.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
             this.PassengerGDV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -323,10 +318,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1174, 915);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Location = new System.Drawing.Point(1565, 1126);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(156, 40);
+            this.button3.Size = new System.Drawing.Size(208, 49);
             this.button3.TabIndex = 56;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
@@ -339,10 +334,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(1004, 915);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(1339, 1126);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 40);
+            this.button2.Size = new System.Drawing.Size(208, 49);
             this.button2.TabIndex = 55;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
@@ -355,10 +350,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1344, 915);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(1792, 1126);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 40);
+            this.button1.Size = new System.Drawing.Size(208, 49);
             this.button1.TabIndex = 54;
             this.button1.Text = "Update";
             this.button1.UseVisualStyleBackColor = false;
@@ -371,10 +366,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(31, 915);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(41, 1126);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(156, 40);
+            this.button4.Size = new System.Drawing.Size(208, 49);
             this.button4.TabIndex = 57;
             this.button4.Text = "Back";
             this.button4.UseVisualStyleBackColor = false;
@@ -385,10 +380,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(1475, 303);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(1967, 373);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(25, 28);
+            this.label7.Size = new System.Drawing.Size(34, 37);
             this.label7.TabIndex = 58;
             this.label7.Text = "x";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -400,8 +394,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1721, 49);
+            this.panel1.Size = new System.Drawing.Size(1942, 60);
             this.panel1.TabIndex = 59;
             // 
             // label1
@@ -409,10 +404,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(37, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(49, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 37);
+            this.label1.Size = new System.Drawing.Size(112, 44);
             this.label1.TabIndex = 101;
             this.label1.Text = "AirITS";
             // 
@@ -421,20 +415,19 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1289, 9);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(1719, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(379, 37);
+            this.label3.Size = new System.Drawing.Size(466, 44);
             this.label3.TabIndex = 102;
             this.label3.Text = "AirITS Reservation System";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 54);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 66);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1656, 198);
+            this.pictureBox1.Size = new System.Drawing.Size(2208, 244);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 99;
             this.pictureBox1.TabStop = false;
@@ -442,9 +435,9 @@
             // 
             // ViewPassenger
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1721, 1100);
+            this.ClientSize = new System.Drawing.Size(1942, 1102);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
@@ -468,7 +461,7 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ViewPassenger";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ViewPassenger";
