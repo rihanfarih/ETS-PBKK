@@ -24,4 +24,8 @@ Record Passengers
 ![Test Image 1](https://github.com/rihanfarih/ETS-PBKK/blob/main/img/cancel.PNG)
 Cancel Booking
 
-![Test Image 1](https://github.com/rihanfarih/ETS-PBKK/blob/main/img/loading.PNG)
+![Test Image 1](https://github.com/rihanfarih/ETS-PBKK/blob/main/img/view_psngr.PNG)
+view Passenger
+
+![Test Image 1](https://github.com/rihanfarih/ETS-PBKK/blob/main/img/view_flight.PNG)
+view Flight
